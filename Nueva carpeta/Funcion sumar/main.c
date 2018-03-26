@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int sumar(int,int);
+#include "baus.h"
 
 int main()
 {
@@ -14,11 +14,5 @@ int main()
     return 0;
 }
 
-int sumar(int a,int b){
-int resultado;
-resultado=a+b;
 
-return resultado;
-
-}
 
